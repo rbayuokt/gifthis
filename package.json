@@ -1,0 +1,33 @@
+{
+  "name": "gifthis",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": {
+    "gifthis": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gifthis": "node ./index.js"
+  },
+  "keywords": [
+    "gif",
+    "ffmpeg",
+    "gifsicle",
+    "convert-video-to-gif"
+  ],
+  "description": "Convert videos to GIFs with just one command",
+  "dependencies": {
+    "shelljs": "^0.8.5",
+    "yargs": "^17.7.2"
+  },
+  "repository": "https://github.com/rbayuokt/gifthis",
+  "author": "Rizky Bayu Oktavian <rizkybayuoktavian@gmail.com> (https://github.com/rbayuokt)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rbayuokt/gifthis/issues"
+  },
+  "homepage": "https://github.com/rbayuokt/gifthis#readme",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
+}

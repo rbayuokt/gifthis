@@ -1,0 +1,38 @@
+# Node.js
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+jspm_packages/
+bower_components/
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn
+yarn-error.log
+.pnp
+.pnp.*
+
+# dotenv environment variables file
+.env
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# JetBrains IDE
+.idea/
+
+# Visual Studio Code
+.vscode/
+
+# Node.js
+.npm
